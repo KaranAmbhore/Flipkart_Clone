@@ -1,0 +1,268 @@
+.*{
+    margin: 0;
+    padding: 0;
+    background-color:  #edeff2;
+}
+
+.body {
+    background-color: red;
+}
+
+header {
+    height: 250px;
+    width: 100%;
+    background-color:  #edeff2;   
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    background-color: white;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+   
+}
+
+.logo {
+    height: 40px;
+    width: 110px;
+    background-image: url("logo.png");
+    background-size: cover;  
+}
+
+.logo:hover {
+    
+    background-color: black;
+}
+
+
+.searchbar {
+    height: 60px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    
+}
+
+ .search-input {
+    height: 40px;
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: #def1fa ;
+    border: 1px solid transparent ;
+    padding-left: 30px;
+    margin-left: 20px;
+    border-radius: 5px;       
+}
+  
+.search-logo {
+    height: 40px;
+    width: 40px;
+    font-size: 1.5rem;
+    background-color: ;
+    margin-left: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+.login {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.login-img{
+    height: 40px;
+    width: 30px;
+    background-image: url("user.jpg");
+    background-size: cover;
+    margin-left: 20px;
+    
+}
+
+.login-text {
+    height: 40px;
+    width: 60px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 1.3rem;       
+}
+
+#log {
+    
+    text-decoration: none;
+}
+
+
+.cart {
+    font-size: 1.3rem;
+}
+
+.shop{
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+.menu-bar {
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+.panel, 
+.panel-icons {
+    height: 160px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+ /*   align-items: center;  */
+    justify-content: space-around;
+}
+
+.grocery,
+.mobiles,
+.fashion,
+.electronics,
+.furniture,
+.appliances,
+.travel {
+    height: 80px;
+    width: 10%;
+    background-image: url("grocery.png");
+    background-size: cover; 
+    color: black;
+   
+}
+ 
+.mobiles{
+    background-image: url("mobiles.png");
+}
+
+.fashion {
+    background-image: url("fashion.png");
+}
+
+.electronics {
+    background-image: url("electronics.png");
+}
+
+.furniture {
+    background-image: url("furniture.png");
+    background-size: ;
+}
+
+.appliances {
+    background-image: url("appliances.png");
+    mix-blend-mode: multiply;
+}
+
+.travel {
+    background-image: url("travel1.jpg");
+}
+
+.panel-names {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -60px;
+}
+
+
+/*.hero-section{
+    height: 200px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+}  */
+.hero-img {
+    height: 180px;
+    width: 100%;
+    background-color: black;
+    margin-top: 30px;
+    background-image: url("hero-img.jpg");
+    background-size: contain;
+    
+}
+
+.content-sec {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    border: 0.5px solid transparent;
+    margin-top: 10px;
+    box-shadow:  -5px -5px 9px black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    height: 300px;
+    width: 18%;
+    border: 0.5px solid black;
+    
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+    background-image: url("budss.png");
+    height: 250px;
+    width: 230px;
+    background-size: cover;
+    zoom: 0.7;
+}
+
+ /* .content-two {
+    height: 300px;
+    width: 100%;
+    background-color: red;
+}
+
+.cont-two {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}  */
+
+ h2 {
+    margin-left: 24px;
+    margin-bottom: -50px;
+    font-family: Serif;
+} 
+
+
+.img2{
+    background-image: url("img2.png");
+  }
+.img3{
+    background-image: url("img3.png");
+  }
+.img4{
+    background-image: url("img4.jpg");
+    zoom: 1;
+  }
+.img5{
+    background-image: url("img5.png");
+    zoom: 0.7;
+    
+  }
